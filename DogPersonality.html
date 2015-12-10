@@ -1,13 +1,48 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <title>Dog Personality Test</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script type="text/javascript" src='DogPersonality.js'></script>
+        <title>Dog Personality Test</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script type="text/javascript" src='DogPersonality.js'></script>
+    <link rel='stylesheet' type='text/css' href='DogPersonality.css'>
     </head>
     <body>
     	<h1>WHAT TYPE OF DOG SUITS MY PERSONALITY?</h1>
     	<h3>Have you always wanted a dog but have a hard time choosing what type of dog to get?  PupMatch can help you!  <br>Fill out the questionnaire below and find out your best match. </h3>
+
+        <form>
+            <p>I like to:</p>
+            <label>Meet new people and take action</label>
+            <input type="radio" name="extrovert" value="E">
+            <br>
+            <label>Reflect on my thoughts and ideas</label>
+            <input type="radio" name="introvert" value="I">
+
+            <p>I trust the:</p>
+            <label>tangible, I love specific details</label>
+            <input type="radio" name="sensing" value="S">
+            <br>
+            <label>abstract, I love to generalize a pattern</label>
+            <input type="radio" name="intuitive" value="N">
+            
+            <p>I make decisions:</p>
+            <label>through rational, logical thought</label>
+            <input type="radio" name="thinking" value="T">
+            <br>
+            <label>by getting a feel for the situation and finding concensus</label>
+            <input type="radio" name="feeling" value="F">
+
+            <p>I prefer to:</p>
+            <label>have matters settled</label>
+            <input type="radio" name="judging" value="J">
+            <br>
+            <label>keep decisions open</label>
+            <input type="radio" name="perceiving" value="P">
+            <br>
+
+            <input type="Submit" value="Submit" class='Submit'>
+
+        </form>
     	
     	<p id ="INFP">
     		<img src="http://petparent.me/wp-content/uploads/2014/05/13527-Sable-Shetland-Sheepdog-Sheltie-white-background.jpg" width = "150" height: "100">
