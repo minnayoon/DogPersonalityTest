@@ -1,39 +1,29 @@
 $(document).ready(function(){
 
-$("#ESTJ").hide();
+      var resultQ1 = function(){
 
-//       var questionOne = $("q1")
-//       var questionTwo = $("q2")
-//       var questionThree = $("q3")
-//       var questionFour = $("q4")
+            $("#q1").click("#results");
 
+            var personalityResults = $("input[name='q1']:checked").val();
+      }
+      
 
-
-// };
-// $(#results).click(questionOne.value)
-//       console.log("print E")
 });
-//       questionTwo = 
-//             if (q2 === "S") {};
+      // var personalityResults = ''
+      // personalityResults = personalityResults.append('#q1');
+      // personalityResults = personalityResults.append('#q2');
+      // personalityResults = personalityResults.append('#q3');
+      // personalityResults = personalityResults.append('#q4');
 
-//             else (q2 === "N")
-//       };
-//       else (q1 === "E"){
+      // console.log(personalityResults);
 
-//       };
+      // var resultString = $("#results").
+
+      // $(function(){
+      //       $("#results").click
+      // }
+      // $("#ESTJ").hide();
+      // $("ESTJ").string.show();
+
+
 // });
-
-
-// ShowResults = function()
-
-// var resultsOptionOne = $(.INFP). 
-
-// (.Submit).onclick(ShowResults(#results))
-
-//  if(ShowResults){
-//       q1 = answer(I)
-//       q2 = answer(N)
-//       q3 = answer()
-//       q4 = answer()
-//  }
-//  ("#results").text())
